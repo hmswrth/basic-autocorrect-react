@@ -4,7 +4,7 @@ import AutocorrectTextarea from './components/AutocorrectTextarea';
 function App() {
   return (
     <div className="App">
-    <AutocorrectTextarea />
+      <AutocorrectTextarea />
     </div>
   );
 }

@@ -3,7 +3,9 @@ import React, { useState, useEffect } from 'react'
 function AutocorrectTextarea() {
    const corrections = {
       helo: "hello",
-      wrld: "world"
+      wrld: "world",
+      realy: 'really',
+      wierd: 'weird'
    };
 
    const [data, setData] = useState("");
@@ -29,7 +31,7 @@ function AutocorrectTextarea() {
 
    return (
       <>
-         <label for='textarea'>Start typing below</label> <br />
+         <label for='textarea'>Start typing below...</label> <br />
          <textarea
             data-testid="textarea"
             rows={5}
